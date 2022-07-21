@@ -55,6 +55,10 @@ public class TblVoto implements Serializable {
 		this.mesario = mesario;
 	}
 
+	public TblVoto() {
+
+	}
+
 	public long getId() {
 		return id;
 	}
