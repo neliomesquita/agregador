@@ -10,7 +10,7 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 
 @Entity
-@Table(name = "tutorials")
+@Table(name = "tbl_candidato")
 public class TblCandidato implements Serializable{
 
 	/**
@@ -38,6 +38,9 @@ public class TblCandidato implements Serializable{
 		this.nomeCandidato = nomeCandidato;
 		this.numCandidato = numCandidato;
 		this.tpCandidato = tpCandidato;
+	}
+
+	public TblCandidato() {
 	}
 
 	public long getId() {
